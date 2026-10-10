@@ -1,0 +1,32 @@
+.hero { text-align: center; padding-block: var(--space-6); max-width: 750px; }
+.hero h1 { font-size: clamp(2rem, 5vw, 3.2rem); }
+.hero p { color: var(--text-muted); font-size: 1.15rem; }
+.hero-actions { display: flex; gap: var(--space-3); justify-content: center; flex-wrap: wrap; }
+
+.section { padding-block: var(--space-5); }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--space-4);
+}
+
+.steps { counter-reset: step; list-style: none; padding: 0; display: grid; gap: var(--space-3); }
+.steps li {
+  counter-increment: step;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-3) var(--space-4);
+}
+.steps li::before {
+  content: counter(step);
+  display: inline-grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  margin-right: var(--space-3);
+  background: var(--primary);
+  color: #fff;
+  border-radius: 50%;
+  font-weight: 700;
+}
