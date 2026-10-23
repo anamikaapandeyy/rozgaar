@@ -1,0 +1,225 @@
+[
+  {
+    "title": "Software Developer",
+    "slug": "software-developer",
+    "category": "Technology",
+    "summary": "Build websites, apps and systems that people use every day.",
+    "interests": ["technology"],
+    "skills": ["problem-solving", "math", "creativity"],
+    "roadmap": [
+      { "title": "Learn programming basics (JavaScript or Python)", "duration": "2-3 months" },
+      { "title": "Learn data structures and algorithms", "duration": "3-4 months" },
+      { "title": "Build 3-4 real projects and put them on GitHub", "duration": "3 months" },
+      { "title": "Apply for internships and junior roles", "duration": "Ongoing" }
+    ],
+    "resources": [
+      { "title": "freeCodeCamp", "url": "https://www.freecodecamp.org" },
+      { "title": "The Odin Project", "url": "https://www.theodinproject.com" },
+      { "title": "NPTEL courses", "url": "https://nptel.ac.in" }
+    ],
+    "salary": { "min": 4, "max": 25 },
+    "companies": ["TCS", "Infosys", "Wipro", "Flipkart", "Razorpay", "Microsoft"],
+    "exams": ["JEE Main (for B.Tech at NITs/IITs)", "State CETs"],
+    "expect": ["Constant learning as tools change", "Problem solving most of the day", "Remote and hybrid options are common"]
+  },
+  {
+    "title": "Data Analyst",
+    "slug": "data-analyst",
+    "category": "Technology",
+    "summary": "Turn raw numbers into insights that help businesses decide.",
+    "interests": ["technology", "business"],
+    "skills": ["math", "problem-solving", "communication"],
+    "roadmap": [
+      { "title": "Learn Excel and SQL", "duration": "1-2 months" },
+      { "title": "Learn Python (pandas) or R and statistics basics", "duration": "2-3 months" },
+      { "title": "Learn a dashboard tool like Power BI or Tableau", "duration": "1 month" },
+      { "title": "Build a portfolio of 3 analysis projects", "duration": "2 months" }
+    ],
+    "resources": [
+      { "title": "Kaggle Learn", "url": "https://www.kaggle.com/learn" },
+      { "title": "Mode SQL Tutorial", "url": "https://mode.com/sql-tutorial" },
+      { "title": "NPTEL courses", "url": "https://nptel.ac.in" }
+    ],
+    "salary": { "min": 3.5, "max": 18 },
+    "companies": ["Deloitte", "EY", "Accenture", "Fractal Analytics", "Swiggy", "Amazon"],
+    "exams": ["No mandatory exam; a degree in any quantitative field helps"],
+    "expect": ["Lots of spreadsheet and SQL work", "Explaining findings to non-technical people", "Clean data takes more time than analysis"]
+  },
+  {
+    "title": "UI/UX Designer",
+    "slug": "ux-designer",
+    "category": "Design",
+    "summary": "Design apps and websites that are easy and pleasant to use.",
+    "interests": ["design", "technology"],
+    "skills": ["creativity", "communication", "problem-solving"],
+    "roadmap": [
+      { "title": "Learn design basics: layout, color, typography", "duration": "1-2 months" },
+      { "title": "Learn Figma and prototyping", "duration": "1 month" },
+      { "title": "Learn user research and usability testing", "duration": "2 months" },
+      { "title": "Build a portfolio with 3 case studies", "duration": "3 months" }
+    ],
+    "resources": [
+      { "title": "Figma Learn", "url": "https://help.figma.com" },
+      { "title": "Google UX Design Certificate", "url": "https://www.coursera.org" },
+      { "title": "Laws of UX", "url": "https://lawsofux.com" }
+    ],
+    "salary": { "min": 3.5, "max": 22 },
+    "companies": ["Adobe", "Google", "Zomato", "CRED", "Myntra", "Freshworks"],
+    "exams": ["NID DAT, UCEED (for design degrees; optional)"],
+    "expect": ["Your portfolio matters more than your degree", "Feedback and revisions all the time", "Working closely with developers"]
+  },
+  {
+    "title": "Digital Marketer",
+    "slug": "digital-marketer",
+    "category": "Business",
+    "summary": "Help brands find and keep customers through search, social media and ads.",
+    "interests": ["business", "design"],
+    "skills": ["communication", "creativity", "writing"],
+    "roadmap": [
+      { "title": "Learn marketing basics and how SEO works", "duration": "1 month" },
+      { "title": "Learn social media and paid ads (Google, Meta)", "duration": "2 months" },
+      { "title": "Learn analytics (Google Analytics)", "duration": "1 month" },
+      { "title": "Run a real campaign for a small business or your own page", "duration": "2 months" }
+    ],
+    "resources": [
+      { "title": "Google Skillshop", "url": "https://skillshop.withgoogle.com" },
+      { "title": "HubSpot Academy", "url": "https://academy.hubspot.com" }
+    ],
+    "salary": { "min": 3, "max": 15 },
+    "companies": ["Ogilvy", "WPP", "Dentsu", "Nykaa", "boAt", "Byju's"],
+    "exams": ["No mandatory exam; certifications help"],
+    "expect": ["Results are measured in numbers", "Platforms and algorithms keep changing", "Creative work mixed with reports"]
+  },
+  {
+    "title": "Chartered Accountant",
+    "slug": "chartered-accountant",
+    "category": "Finance",
+    "summary": "Handle accounting, tax, audit and financial advice for businesses.",
+    "interests": ["business"],
+    "skills": ["math", "problem-solving", "leadership"],
+    "roadmap": [
+      { "title": "Register for CA Foundation after 12th", "duration": "4 months of prep" },
+      { "title": "Clear CA Intermediate and start articleship", "duration": "About 1.5 years" },
+      { "title": "Complete 3 years of articleship training", "duration": "3 years" },
+      { "title": "Clear CA Final and become a member of ICAI", "duration": "About 1 year" }
+    ],
+    "resources": [
+      { "title": "ICAI official site", "url": "https://www.icai.org" },
+      { "title": "ICAI BoS Knowledge Portal", "url": "https://boslive.icai.org" }
+    ],
+    "salary": { "min": 7, "max": 30 },
+    "companies": ["Deloitte", "KPMG", "PwC", "EY", "HDFC Bank", "Tata Group"],
+    "exams": ["CA Foundation", "CA Intermediate", "CA Final"],
+    "expect": ["A long and demanding course", "Busy seasons around tax deadlines", "Strong demand once qualified"]
+  },
+  {
+    "title": "Doctor (MBBS)",
+    "slug": "doctor-mbbs",
+    "category": "Healthcare",
+    "summary": "Diagnose and treat patients, and specialise in a field of medicine.",
+    "interests": ["healthcare"],
+    "skills": ["problem-solving", "communication", "leadership"],
+    "roadmap": [
+      { "title": "Take Physics, Chemistry and Biology in 11th-12th", "duration": "2 years" },
+      { "title": "Clear NEET-UG and get a medical seat", "duration": "1-2 years of prep" },
+      { "title": "Complete MBBS including internship", "duration": "5.5 years" },
+      { "title": "Prepare for NEET-PG to specialise (MD/MS)", "duration": "3 years of study after MBBS" }
+    ],
+    "resources": [
+      { "title": "NTA NEET official site", "url": "https://neet.nta.nic.in" },
+      { "title": "National Medical Commission", "url": "https://www.nmc.org.in" }
+    ],
+    "salary": { "min": 6, "max": 40 },
+    "companies": ["AIIMS", "Apollo Hospitals", "Fortis", "Max Healthcare", "Government hospitals"],
+    "exams": ["NEET-UG", "NEET-PG"],
+    "expect": ["Very competitive entry", "Long years of study and training", "Long hours, but deeply meaningful work"]
+  },
+  {
+    "title": "School Teacher",
+    "slug": "school-teacher",
+    "category": "Education",
+    "summary": "Teach and guide students in school, and shape how they learn.",
+    "interests": ["teaching"],
+    "skills": ["communication", "leadership", "creativity"],
+    "roadmap": [
+      { "title": "Complete a bachelor's degree in your subject", "duration": "3 years" },
+      { "title": "Complete a B.Ed. degree", "duration": "2 years" },
+      { "title": "Clear TET and CTET", "duration": "6-12 months of prep" },
+      { "title": "Apply to government or private schools", "duration": "Ongoing" }
+    ],
+    "resources": [
+      { "title": "CTET official site", "url": "https://ctet.nic.in" },
+      { "title": "DIKSHA platform", "url": "https://diksha.gov.in" }
+    ],
+    "salary": { "min": 3, "max": 12 },
+    "companies": ["Kendriya Vidyalayas", "DPS", "Government schools", "Ed-tech platforms like Vedantu"],
+    "exams": ["CTET", "State TET", "NET (for college teaching)"],
+    "expect": ["Stable job, especially in government schools", "Work beyond classroom hours", "Rewarding when students succeed"]
+  },
+  {
+    "title": "Lawyer",
+    "slug": "lawyer",
+    "category": "Law",
+    "summary": "Advise clients and argue cases in court or in a company's legal team.",
+    "interests": ["law", "business"],
+    "skills": ["communication", "writing", "problem-solving"],
+    "roadmap": [
+      { "title": "Prepare for CLAT after 12th", "duration": "1-2 years of prep" },
+      { "title": "Complete a 5-year integrated law degree (BA LLB)", "duration": "5 years" },
+      { "title": "Intern with courts, law firms and companies", "duration": "During the degree" },
+      { "title": "Register with the Bar Council and start practice or join a firm", "duration": "Ongoing" }
+    ],
+    "resources": [
+      { "title": "Consortium of NLUs (CLAT)", "url": "https://consortiumofnlus.ac.in" },
+      { "title": "Bar Council of India", "url": "https://www.barcouncilofindia.org" }
+    ],
+    "salary": { "min": 3, "max": 30 },
+    "companies": ["Cyril Amarchand Mangaldas", "AZB & Partners", "Trilegal", "Corporate legal teams", "High Courts"],
+    "exams": ["CLAT", "AILET", "AIBE (Bar exam)"],
+    "expect": ["A lot of reading and writing", "Slow early years, big growth later", "Pay varies hugely between firms and courts"]
+  },
+  {
+    "title": "Civil Services Officer",
+    "slug": "civil-services",
+    "category": "Public Service",
+    "summary": "Work in government to run districts, policy and public services (IAS, IPS, IFS).",
+    "interests": ["law", "teaching"],
+    "skills": ["leadership", "communication", "writing"],
+    "roadmap": [
+      { "title": "Complete any bachelor's degree", "duration": "3 years" },
+      { "title": "Understand the UPSC syllabus and build a study plan", "duration": "1 month" },
+      { "title": "Prepare for Prelims, Mains and Interview", "duration": "1-3 years" },
+      { "title": "Train at the academy and take up your first posting", "duration": "2 years" }
+    ],
+    "resources": [
+      { "title": "UPSC official site", "url": "https://upsc.gov.in" },
+      { "title": "NCERT books", "url": "https://ncert.nic.in" }
+    ],
+    "salary": { "min": 9, "max": 25 },
+    "companies": ["Government of India", "State governments"],
+    "exams": ["UPSC Civil Services Examination (Prelims, Mains, Interview)"],
+    "expect": ["Very low selection rate, so have a backup plan", "Job security and authority", "Transfers and demanding responsibility"]
+  },
+  {
+    "title": "Content Writer",
+    "slug": "content-writer",
+    "category": "Media",
+    "summary": "Write articles, scripts, ads and website copy for brands and publications.",
+    "interests": ["design", "business"],
+    "skills": ["writing", "creativity", "communication"],
+    "roadmap": [
+      { "title": "Read widely and practise writing every day", "duration": "Ongoing" },
+      { "title": "Learn SEO and how to write for the web", "duration": "1 month" },
+      { "title": "Start a blog or write guest posts to build samples", "duration": "2 months" },
+      { "title": "Apply for freelance gigs and junior writer roles", "duration": "Ongoing" }
+    ],
+    "resources": [
+      { "title": "Google Skillshop", "url": "https://skillshop.withgoogle.com" },
+      { "title": "HubSpot Academy", "url": "https://academy.hubspot.com" }
+    ],
+    "salary": { "min": 2.5, "max": 12 },
+    "companies": ["Times Internet", "Hindustan Times", "Zomato", "Content agencies", "Freelance"],
+    "exams": ["No mandatory exam; a degree in English or journalism helps"],
+    "expect": ["Deadlines are frequent", "Freelance income can be uneven at first", "AI tools are changing the work, so strong ideas matter"]
+  }
+]

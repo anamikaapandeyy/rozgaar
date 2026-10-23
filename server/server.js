@@ -1,10 +1,9 @@
 import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
-import mongoose from 'mongoose';
-import dns from 'node:dns';
-
-dns.setServers(['8.8.8.8', '1.1.1.1']);
+import { connectDB } from './config/db.js';
+import careerRoutes from './routes/careers.js';
+import { errorHandler } from './middleware/errorHandler.js';
 
 const app = express();
 
@@ -15,12 +14,14 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'ok' });
 });
 
+app.use('/api/careers', careerRoutes);
+
+app.use(errorHandler);
+
 const PORT = process.env.PORT || 5000;
 
-mongoose
-  .connect(process.env.MONGO_URI)
+connectDB()
   .then(() => {
-    console.log('MongoDB connected');
     app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
   })
   .catch((err) => {
