@@ -1,0 +1,34 @@
+.career-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  transition: transform 0.2s;
+}
+.career-card:hover { transform: translateY(-4px); }
+.career-card h3 { margin: 0; }
+.career-card h3 a { color: var(--text); text-decoration: none; }
+.career-card h3 a:hover { color: var(--primary); }
+
+.career-card-top { display: flex; justify-content: space-between; align-items: center; }
+.career-category { font-size: 0.85rem; color: var(--text-muted); font-weight: 600; }
+.career-match {
+  background: color-mix(in srgb, var(--primary) 12%, var(--surface));
+  color: var(--primary);
+  padding: var(--space-1) var(--space-3);
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.career-summary { color: var(--text-muted); margin: 0; }
+
+.match-bar { height: 8px; background: var(--border); border-radius: 999px; overflow: hidden; }
+.match-bar-fill { height: 100%; background: var(--primary); }
+
+.career-why { font-size: 0.9rem; margin: 0; }
+.career-salary { font-weight: 700; margin: 0; }
