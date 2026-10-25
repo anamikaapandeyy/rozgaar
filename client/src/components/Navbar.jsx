@@ -9,6 +9,7 @@ export default function Navbar() {
         <ul className="nav-links">
           <li><NavLink to="/" end>Home</NavLink></li>
           <li><NavLink to="/quiz">Take the Quiz</NavLink></li>
+          <li><NavLink to="/browse">Browse</NavLink></li>
         </ul>
       </nav>
     </header>

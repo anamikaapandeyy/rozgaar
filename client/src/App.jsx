@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Quiz from './pages/Quiz';
 import Results from './pages/Results';
 import CareerDetail from './pages/CareerDetail';
+import Browse from './pages/Browse';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/quiz" element={<Quiz />} />
           <Route path="/results" element={<Results />} />
           <Route path="/career/:slug" element={<CareerDetail />} />
+          <Route path="/browse" element={<Browse />} />
         </Routes>
       </main>
       <Footer />

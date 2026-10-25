@@ -25,7 +25,7 @@ export default function Home() {
         </p>
         <div className="hero-actions">
           <Button to="/quiz">Take the quiz</Button>
-          <Button to="/results" variant="outline">Browse careers</Button>
+          <Button to="/browse" variant="outline">Browse careers</Button>
         </div>
       </section>
 
