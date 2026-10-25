@@ -1,0 +1,53 @@
+.detail { padding-block: var(--space-5); max-width: 760px; }
+.detail section { margin-bottom: var(--space-5); }
+
+.back-link { display: inline-block; margin-bottom: var(--space-4); text-decoration: none; font-weight: 600; }
+
+.detail-header { margin-bottom: var(--space-5); }
+.detail-category { color: var(--text-muted); font-weight: 600; font-size: 0.9rem; }
+.detail-header h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); }
+.detail-summary { color: var(--text-muted); font-size: 1.15rem; }
+.detail-salary { font-weight: 700; }
+
+/* Timeline: a vertical line with a dot per step */
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 var(--space-4);
+  border-left: 3px solid var(--border);
+  display: grid;
+  gap: var(--space-4);
+}
+.timeline li { position: relative; display: grid; gap: var(--space-1); }
+.timeline li::before {
+  content: '';
+  position: absolute;
+  left: calc(-1 * var(--space-4) - 9px);
+  top: 0.4rem;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--primary);
+  border: 3px solid var(--bg);
+}
+.timeline-duration { color: var(--text-muted); font-size: 0.9rem; }
+
+.plain-list { padding-left: var(--space-4); display: grid; gap: var(--space-2); }
+
+.detail-chips { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.detail-chips li {
+  background: color-mix(in srgb, var(--primary) 12%, var(--surface));
+  color: var(--primary);
+  padding: var(--space-1) var(--space-3);
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.detail-skeleton {
+  height: 320px;
+  border-radius: var(--radius);
+  background: var(--border);
+  animation: pulse 1.2s infinite ease-in-out;
+}
+@keyframes pulse { 50% { opacity: 0.5; } }
