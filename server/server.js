@@ -4,6 +4,7 @@ import cors from 'cors';
 import { connectDB } from './config/db.js';
 import careerRoutes from './routes/careers.js';
 import { errorHandler } from './middleware/errorHandler.js';
+import matchRoutes from './routes/match.js';
 
 const app = express();
 
@@ -15,6 +16,7 @@ app.get('/api/health', (req, res) => {
 });
 
 app.use('/api/careers', careerRoutes);
+app.use('/api/match', matchRoutes);
 
 app.use(errorHandler);
 
