@@ -15,3 +15,27 @@
 .nav-links { display: flex; gap: var(--space-4); list-style: none; margin: 0; padding: 0; }
 .nav-links a { text-decoration: none; color: var(--text-muted); font-weight: 500; }
 .nav-links a:hover, .nav-links a.active { color: var(--primary); }
+.menu-toggle {
+  display: none;
+  font: inherit;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  background: transparent;
+  color: var(--text);
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .navbar-inner { flex-wrap: wrap; }
+  .menu-toggle { display: block; }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: var(--space-3);
+    padding-top: var(--space-3);
+  }
+  .nav-links.open { display: flex; }
+}
