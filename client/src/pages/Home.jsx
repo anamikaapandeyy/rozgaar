@@ -1,6 +1,7 @@
 import Button from '../components/Button';
 import Card from '../components/Card';
 import './Home.css';
+import usePageTitle from '../hooks/usePageTitle';
 
 const features = [
   { icon: '🎯', title: 'Matched to you', text: 'Answer a short quiz about your interests and skills and get careers that actually fit.' },
@@ -15,6 +16,7 @@ const steps = [
 ];
 
 export default function Home() {
+  usePageTitle('Find your career path');
   return (
     <>
       <section className="hero container">

@@ -2,6 +2,7 @@ import { useCallback, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getCareers } from '../api/careers';
 import useFetch from '../hooks/useFetch';
+import usePageTitle from '../hooks/usePageTitle';
 import useDebounce from '../hooks/useDebounce';
 import './Browse.css';
 
@@ -11,6 +12,7 @@ const categories = [
 ];
 
 export default function Browse() {
+  usePageTitle('Browse careers');
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('');
   const debouncedQuery = useDebounce(query);

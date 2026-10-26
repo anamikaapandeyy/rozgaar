@@ -4,10 +4,12 @@ import { useQuiz } from '../context/QuizContext';
 import { stages, interests, skills } from '../data/quizOptions';
 import Button from '../components/Button';
 import './Quiz.css';
+import usePageTitle from '../hooks/usePageTitle';
 
 const TOTAL_STEPS = 3;
 
 export default function Quiz() {
+  usePageTitle('Career quiz');
   const [step, setStep] = useState(1);
   const [error, setError] = useState('');
   const { answers, setAnswers } = useQuiz();

@@ -5,8 +5,10 @@ import useFetch from '../hooks/useFetch';
 import CareerCard from '../components/CareerCard';
 import Button from '../components/Button';
 import './Results.css';
+import usePageTitle from '../hooks/usePageTitle';
 
 export default function Results() {
+  usePageTitle('Your matches');
   const { answers, reset } = useQuiz();
   const hasAnswers =
     answers.stage && answers.interests.length > 0 && answers.skills.length > 0;
