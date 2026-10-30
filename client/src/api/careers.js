@@ -1,5 +1,7 @@
-async function request(url, options) {
-  const res = await fetch(url, options);
+const BASE_URL = import.meta.env.VITE_API_URL ?? '';
+
+async function request(path, options) {
+  const res = await fetch(`${BASE_URL}${path}`, options);
 
   if (!res.ok) {
     const data = await res.json().catch(() => ({}));
